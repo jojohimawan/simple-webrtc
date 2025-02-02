@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebRTC P2P</title>
+</head>
+<body>
+    <h2>Ngawi Conference</h2>
+    <h3 id="your-id">Your ID: Waiting...</h3>
+    
+    <video id="user-1" autoplay playsinline></video>
+    <video id="user-2" autoplay playsinline></video>
+
+    <input type="text" id="peer-id" placeholder="Enter peer ID">
+    <button id="connect-peer">Connect</button>
+    <button id="create-offer">Create Offer</button>
+    <button id="hang-up">Hang Up</button>
+
+    <script src="client.js"></script>
+</body>
+</html>
